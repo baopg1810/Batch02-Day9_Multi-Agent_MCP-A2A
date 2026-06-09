@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#f59e0b"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#22c55e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="850" fill="#0f172a"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="900" height="80" fill="url(#heroGrad)"/>
+  <text x="450" y="35" text-anchor="middle" font-size="24" font-weight="700" fill="#f1f5f9">Stage 4: Multi-Agent System (In-Process)</text>
+  <text x="450" y="58" text-anchor="middle" font-size="14" fill="#94a3b8">Specialised agents collaborate via LangGraph StateGraph with parallel execution</text>
+
+  <!-- Stage badge -->
+  <circle cx="50" cy="40" r="22" fill="#1e3a5f" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="50" y="46" text-anchor="middle" font-size="18" font-weight="800" fill="#fbbf24">4</text>
+
+  <!-- ===== Question input ===== -->
+  <rect x="300" y="105" width="300" height="50" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="450" y="128" text-anchor="middle" font-size="13" font-weight="600" fill="#e2e8f0">Legal Question</text>
+  <text x="450" y="145" text-anchor="middle" font-size="10" fill="#64748b">Contract breach + tax avoidance</text>
+
+  <line x1="450" y1="155" x2="450" y2="185" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ===== StateGraph container ===== -->
+  <rect x="60" y="190" width="780" height="470" rx="16" fill="#0c1929" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="60" y="190" width="780" height="36" rx="16" fill="#422006" opacity="0.3"/>
+  <rect x="60" y="218" width="780" height="8" fill="#422006" opacity="0.3"/>
+  <text x="450" y="214" text-anchor="middle" font-size="15" font-weight="700" fill="#fbbf24">LegalState StateGraph (LangGraph)</text>
+
+  <!-- Node 1: analyze_law -->
+  <rect x="310" y="245" width="280" height="60" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="450" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#60a5fa">analyze_law</text>
+  <text x="450" y="290" text-anchor="middle" font-size="10" fill="#94a3b8">Lead attorney — contract &amp; tort law analysis</text>
+
+  <line x1="450" y1="305" x2="450" y2="335" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Node 2: check_routing -->
+  <rect x="310" y="340" width="280" height="60" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="450" y="365" text-anchor="middle" font-size="13" font-weight="700" fill="#fbbf24">check_routing</text>
+  <text x="450" y="385" text-anchor="middle" font-size="10" fill="#94a3b8">LLM decides: needs_tax? needs_compliance?</text>
+
+  <!-- Parallel split arrows -->
+  <line x1="380" y1="400" x2="220" y2="445" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowAmber)"/>
+  <line x1="520" y1="400" x2="680" y2="445" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowAmber)"/>
+
+  <!-- Send API label -->
+  <rect x="375" y="410" width="150" height="22" rx="6" fill="#422006" opacity="0.5"/>
+  <text x="450" y="425" text-anchor="middle" font-size="10" font-weight="600" fill="#fbbf24">Send API (parallel)</text>
+
+  <!-- Node 3a: call_tax_specialist -->
+  <rect x="95" y="450" width="250" height="90" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="95" y="450" width="250" height="28" rx="12" fill="#14532d" opacity="0.3"/>
+  <rect x="95" y="470" width="250" height="8" fill="#14532d" opacity="0.3"/>
+  <text x="220" y="470" text-anchor="middle" font-size="12" font-weight="700" fill="#4ade80">call_tax_specialist</text>
+  <text x="220" y="496" text-anchor="middle" font-size="10" fill="#94a3b8">Inline ReAct agent with</text>
+  <text x="220" y="512" text-anchor="middle" font-size="10" fill="#94a3b8">tax system prompt + search_tax_law</text>
+  <text x="220" y="530" text-anchor="middle" font-size="9" fill="#64748b">IRC §§ 6651, 6662, 7201 expertise</text>
+
+  <!-- Node 3b: call_compliance_specialist -->
+  <rect x="555" y="450" width="250" height="90" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="555" y="450" width="250" height="28" rx="12" fill="#14532d" opacity="0.3"/>
+  <rect x="555" y="470" width="250" height="8" fill="#14532d" opacity="0.3"/>
+  <text x="680" y="470" text-anchor="middle" font-size="12" font-weight="700" fill="#4ade80">call_compliance_specialist</text>
+  <text x="680" y="496" text-anchor="middle" font-size="10" fill="#94a3b8">Inline ReAct agent with</text>
+  <text x="680" y="512" text-anchor="middle" font-size="10" fill="#94a3b8">compliance prompt + search_compliance_law</text>
+  <text x="680" y="530" text-anchor="middle" font-size="9" fill="#64748b">SEC, SOX, FCPA, GDPR expertise</text>
+
+  <!-- Parallel badge -->
+  <rect x="360" y="475" width="80" height="20" rx="6" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="400" y="489" text-anchor="middle" font-size="9" font-weight="700" fill="#4ade80">PARALLEL</text>
+
+  <!-- Merge arrows -->
+  <line x1="220" y1="540" x2="380" y2="585" stroke="#22c55e" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="680" y1="540" x2="520" y2="585" stroke="#22c55e" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Node 4: aggregate -->
+  <rect x="310" y="575" width="280" height="65" rx="10" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="450" y="600" text-anchor="middle" font-size="13" font-weight="700" fill="#c084fc">aggregate</text>
+  <text x="450" y="618" text-anchor="middle" font-size="10" fill="#94a3b8">Combines law + tax + compliance into</text>
+  <text x="450" y="632" text-anchor="middle" font-size="10" fill="#94a3b8">cohesive final answer</text>
+
+  <!-- Arrow to END -->
+  <line x1="450" y1="640" x2="450" y2="665" stroke="#a855f7" stroke-width="2"/>
+  <rect x="420" y="665" width="60" height="25" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <text x="450" y="682" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b">END</text>
+
+  <!-- ===== Comparison: Stage 4 vs Stage 5 ===== -->
+  <rect x="60" y="710" width="380" height="120" rx="12" fill="#0c1929" stroke="#f59e0b" stroke-width="1"/>
+  <text x="250" y="733" text-anchor="middle" font-size="12" font-weight="700" fill="#fbbf24">Stage 4: In-Process (This Demo)</text>
+  <line x1="80" y1="741" x2="420" y2="741" stroke="#1e3a5f" stroke-width="0.5"/>
+  <circle cx="90" cy="758" r="3" fill="#f59e0b"/>
+  <text x="102" y="762" font-size="10" fill="#94a3b8">Single Python process</text>
+  <circle cx="90" cy="776" r="3" fill="#f59e0b"/>
+  <text x="102" y="780" font-size="10" fill="#94a3b8">Direct function calls between agents</text>
+  <circle cx="90" cy="794" r="3" fill="#f59e0b"/>
+  <text x="102" y="798" font-size="10" fill="#94a3b8">Shared memory (LegalState dict)</text>
+  <circle cx="90" cy="812" r="3" fill="#f59e0b"/>
+  <text x="102" y="816" font-size="10" fill="#94a3b8">Simple to deploy and debug</text>
+
+  <rect x="460" y="710" width="380" height="120" rx="12" fill="#0c1929" stroke="#22c55e" stroke-width="1"/>
+  <text x="650" y="733" text-anchor="middle" font-size="12" font-weight="700" fill="#4ade80">Stage 5: Distributed A2A (Main Project)</text>
+  <line x1="480" y1="741" x2="820" y2="741" stroke="#1e3a5f" stroke-width="0.5"/>
+  <circle cx="490" cy="758" r="3" fill="#22c55e"/>
+  <text x="502" y="762" font-size="10" fill="#94a3b8">Multiple services on different ports</text>
+  <circle cx="490" cy="776" r="3" fill="#22c55e"/>
+  <text x="502" y="780" font-size="10" fill="#94a3b8">HTTP-based A2A protocol</text>
+  <circle cx="490" cy="794" r="3" fill="#22c55e"/>
+  <text x="502" y="798" font-size="10" fill="#94a3b8">Message passing + service discovery</text>
+  <circle cx="490" cy="812" r="3" fill="#22c55e"/>
+  <text x="502" y="816" font-size="10" fill="#94a3b8">Independent scaling per agent</text>
+</svg>

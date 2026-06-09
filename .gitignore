@@ -1,0 +1,6 @@
+.venv
+.env
+**cache**
+.claude
+**SOLUTION**
+start_all.ps1

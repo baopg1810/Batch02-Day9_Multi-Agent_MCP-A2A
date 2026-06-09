@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#a855f7"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#22c55e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="750" fill="#0f172a"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="900" height="80" fill="url(#heroGrad)"/>
+  <text x="450" y="35" text-anchor="middle" font-size="24" font-weight="700" fill="#f1f5f9">Stage 3: Single Agent (ReAct Loop)</text>
+  <text x="450" y="58" text-anchor="middle" font-size="14" fill="#94a3b8">Autonomous Think → Act → Observe loop — the agent decides what to do next</text>
+
+  <!-- Stage badge -->
+  <circle cx="50" cy="40" r="22" fill="#1e3a5f" stroke="#a855f7" stroke-width="2.5"/>
+  <text x="50" y="46" text-anchor="middle" font-size="18" font-weight="800" fill="#c084fc">3</text>
+
+  <!-- ===== User input ===== -->
+  <rect x="280" y="105" width="340" height="55" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="450" y="128" text-anchor="middle" font-size="13" font-weight="600" fill="#e2e8f0">Complex Multi-Part Question</text>
+  <text x="450" y="148" text-anchor="middle" font-size="10" fill="#64748b">Data privacy + tax evasion + compliance</text>
+
+  <line x1="450" y1="160" x2="450" y2="195" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ===== ReAct Agent box ===== -->
+  <rect x="120" y="200" width="660" height="310" rx="16" fill="#0c1929" stroke="#a855f7" stroke-width="2"/>
+  <rect x="120" y="200" width="660" height="38" rx="16" fill="#2d1a4e" opacity="0.4"/>
+  <rect x="120" y="228" width="660" height="10" fill="#2d1a4e" opacity="0.4"/>
+  <text x="450" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="#c084fc">ReAct Agent (create_react_agent)</text>
+
+  <!-- Think node -->
+  <rect x="160" y="260" width="180" height="70" rx="12" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="250" y="282" text-anchor="middle" font-size="20" fill="#c084fc">&#x1f914;</text>
+  <text x="250" y="303" text-anchor="middle" font-size="13" font-weight="700" fill="#c084fc">THINK</text>
+  <text x="250" y="320" text-anchor="middle" font-size="10" fill="#94a3b8">Reason about next step</text>
+
+  <!-- Arrow Think -> Act -->
+  <line x1="340" y1="295" x2="380" y2="295" stroke="#a855f7" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Act node -->
+  <rect x="385" y="260" width="180" height="70" rx="12" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="475" y="282" text-anchor="middle" font-size="20" fill="#60a5fa">&#x26a1;</text>
+  <text x="475" y="303" text-anchor="middle" font-size="13" font-weight="700" fill="#60a5fa">ACT</text>
+  <text x="475" y="320" text-anchor="middle" font-size="10" fill="#94a3b8">Call a tool</text>
+
+  <!-- Arrow Act -> Observe -->
+  <line x1="565" y1="295" x2="605" y2="295" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Observe node -->
+  <rect x="610" y="260" width="140" height="70" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="680" y="282" text-anchor="middle" font-size="20" fill="#4ade80">&#x1f441;</text>
+  <text x="680" y="303" text-anchor="middle" font-size="13" font-weight="700" fill="#4ade80">OBSERVE</text>
+  <text x="680" y="320" text-anchor="middle" font-size="10" fill="#94a3b8">Read tool result</text>
+
+  <!-- Loop arrow: Observe back to Think -->
+  <path d="M680,330 L680,360 Q680,375 665,375 L250,375 Q235,375 235,360 L235,340" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <polygon points="230,342 235,330 240,342" fill="#475569"/>
+  <text x="450" y="390" text-anchor="middle" font-size="10" fill="#475569" font-style="italic">Repeat until enough information gathered</text>
+
+  <!-- Tools panel -->
+  <rect x="160" y="405" width="580" height="90" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="180" y="425" font-size="11" font-weight="700" fill="#60a5fa">Available Tools (3)</text>
+  <line x1="180" y1="433" x2="720" y2="433" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <!-- Tool boxes -->
+  <rect x="175" y="442" width="175" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="1"/>
+  <text x="262" y="458" text-anchor="middle" font-size="10" font-weight="600" fill="#22d3ee">search_legal_database</text>
+  <text x="262" y="474" text-anchor="middle" font-size="9" fill="#64748b">Law + Tax + Compliance KB</text>
+
+  <rect x="365" y="442" width="175" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="1"/>
+  <text x="452" y="458" text-anchor="middle" font-size="10" font-weight="600" fill="#22d3ee">calculate_penalty</text>
+  <text x="452" y="474" text-anchor="middle" font-size="9" fill="#64748b">Penalty ranges by type</text>
+
+  <rect x="555" y="442" width="175" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="1"/>
+  <text x="642" y="458" text-anchor="middle" font-size="10" font-weight="600" fill="#22d3ee">check_compliance_reqs</text>
+  <text x="642" y="474" text-anchor="middle" font-size="9" fill="#64748b">SOX, FCPA, GDPR, etc.</text>
+
+  <!-- Arrow to final answer -->
+  <line x1="450" y1="510" x2="450" y2="545" stroke="#22c55e" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="465" y="532" font-size="9" fill="#475569">done</text>
+
+  <!-- Final answer -->
+  <rect x="280" y="550" width="340" height="55" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="450" y="573" text-anchor="middle" font-size="13" font-weight="600" fill="#4ade80">Comprehensive Legal Analysis</text>
+  <text x="450" y="593" text-anchor="middle" font-size="10" fill="#64748b">Multi-domain: privacy + tax + compliance</text>
+
+  <!-- ===== Example trace ===== -->
+  <rect x="50" y="630" width="800" height="100" rx="12" fill="#0c1929" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="70" y="653" font-size="12" font-weight="700" fill="#a855f7">Example Agent Trace</text>
+  <line x1="70" y1="661" x2="830" y2="661" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <text x="70" y="680" font-size="10" fill="#c084fc" font-family="monospace">Think:</text>
+  <text x="125" y="680" font-size="10" fill="#94a3b8">"I need to search for data privacy laws first"</text>
+  <text x="500" y="680" font-size="10" fill="#60a5fa" font-family="monospace">Act:</text>
+  <text x="535" y="680" font-size="10" fill="#94a3b8">search_legal_database("data privacy consent")</text>
+
+  <text x="70" y="698" font-size="10" fill="#4ade80" font-family="monospace">Observe:</text>
+  <text x="140" y="698" font-size="10" fill="#94a3b8">"CCPA fines up to $7,500..."</text>
+  <text x="380" y="698" font-size="10" fill="#c084fc" font-family="monospace">Think:</text>
+  <text x="435" y="698" font-size="10" fill="#94a3b8">"Now I need tax law info"</text>
+  <text x="625" y="698" font-size="10" fill="#60a5fa" font-family="monospace">Act:</text>
+  <text x="660" y="698" font-size="10" fill="#94a3b8">search_legal_database("tax")</text>
+
+  <text x="70" y="716" font-size="10" fill="#4ade80" font-family="monospace">Observe:</text>
+  <text x="140" y="716" font-size="10" fill="#94a3b8">"Tax evasion 26 U.S.C. § 7201..."</text>
+  <text x="380" y="716" font-size="10" fill="#c084fc" font-family="monospace">Think:</text>
+  <text x="435" y="716" font-size="10" fill="#94a3b8">"I have enough info — generating final answer"</text>
+</svg>
