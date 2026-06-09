@@ -1,0 +1,80 @@
+
+[
+{
+"question": "Nghị định 105/2021/NĐ-CP quy định về những nội dung nào?",
+"expected_answer": "Nghị định 105/2021/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy về công tác phối hợp của các cơ quan chuyên trách phòng, chống tội phạm về ma túy; kiểm soát các hoạt động hợp pháp liên quan đến ma túy; và quản lý người sử dụng trái phép chất ma túy.",
+"expected_context": "Điều 1. Phạm vi điều chỉnh"
+},
+{
+"question": "Đối tượng áp dụng của Nghị định 105/2021/NĐ-CP là ai?",
+"expected_answer": "Nghị định áp dụng đối với các cơ quan, tổ chức, cá nhân có liên quan đến công tác phối hợp phòng, chống tội phạm về ma túy; kiểm soát các hoạt động hợp pháp liên quan đến ma túy; và quản lý người sử dụng trái phép chất ma túy.",
+"expected_context": "Điều 2. Đối tượng áp dụng"
+},
+{
+"question": "Nguyên tắc quản lý người sử dụng trái phép chất ma túy theo Nghị định 105/2021/NĐ-CP là gì?",
+"expected_answer": "Việc quản lý người sử dụng trái phép chất ma túy phải công khai, khách quan, đúng pháp luật; tôn trọng quyền và lợi ích hợp pháp của người sử dụng và gia đình; có sự tham gia của gia đình, cơ quan, tổ chức và cộng đồng; thông tin phải được cập nhật thường xuyên, chính xác; các cơ quan chức năng phải phối hợp chặt chẽ; và nghiêm cấm lợi dụng việc quản lý để xâm phạm quyền, lợi ích hợp pháp của công dân.",
+"expected_context": "Điều 3 khoản 4. Nguyên tắc thực hiện"
+},
+{
+"question": "Sản xuất chất ma túy được hiểu như thế nào theo Nghị định 105/2021/NĐ-CP?",
+"expected_answer": "Sản xuất chất ma túy là hoạt động tạo ra chất ma túy từ cây có chứa chất ma túy, tiền chất, hóa chất hoặc từ chất ma túy khác dưới mọi hình thức, cách thức, phương pháp. Hoạt động này không bao gồm việc trồng cây có chứa chất ma túy.",
+"expected_context": "Điều 4 khoản 1. Giải thích từ ngữ"
+},
+{
+"question": "Những cơ quan nào là cơ quan chuyên trách phòng, chống tội phạm về ma túy?",
+"expected_answer": "Các cơ quan chuyên trách phòng, chống tội phạm về ma túy bao gồm cơ quan thuộc Công an nhân dân, Bộ đội Biên phòng, Cảnh sát biển và Hải quan theo từng cấp, từng lực lượng được quy định trong Nghị định.",
+"expected_context": "Điều 5. Các cơ quan chuyên trách phòng, chống tội phạm về ma túy"
+},
+{
+"question": "Các cơ quan chuyên trách phòng, chống tội phạm về ma túy phối hợp tuyên truyền, vận động Nhân dân như thế nào?",
+"expected_answer": "Các cơ quan chuyên trách trao đổi, thống nhất để tham mưu cấp ủy, chính quyền tổ chức tuyên truyền, nâng cao nhận thức cho Nhân dân về pháp luật phòng, chống ma túy, phương thức thủ đoạn của tội phạm ma túy, hậu quả và tác hại của ma túy; đồng thời xây dựng tài liệu, kế hoạch tuyên truyền và vận động Nhân dân tham gia phòng ngừa, phát hiện, tố giác, đấu tranh với tội phạm và tệ nạn ma túy.",
+"expected_context": "Điều 7. Phối hợp tuyên truyền, vận động Nhân dân"
+},
+{
+"question": "Nội dung thông tin, tài liệu trao đổi giữa các cơ quan chuyên trách phòng, chống tội phạm về ma túy gồm những gì?",
+"expected_answer": "Thông tin, tài liệu trao đổi gồm tình hình tội phạm ma túy trong nước, quốc tế, khu vực biên giới, cửa khẩu và trên biển; kết quả phòng ngừa, đấu tranh; kết quả xử lý tin báo, tố giác; dự báo xu hướng tội phạm; phương thức, thủ đoạn, đường dây, địa bàn trọng điểm; quy trình, kinh nghiệm nghiệp vụ; tiến bộ khoa học kỹ thuật; các loại ma túy mới; văn bản pháp luật mới và các thông tin khác theo yêu cầu.",
+"expected_context": "Điều 8 khoản 1. Phối hợp trao đổi thông tin"
+},
+{
+"question": "Các hình thức phối hợp giữa các cơ quan chuyên trách phòng, chống tội phạm về ma túy gồm những hình thức nào?",
+"expected_answer": "Các hình thức phối hợp gồm trao đổi, cung cấp thông tin, tài liệu; triển khai kế hoạch tuyên truyền; tuần tra kiểm soát liên ngành; xây dựng và triển khai kế hoạch nghiệp vụ; xác lập chuyên án chung; tổ chức họp giao ban, hội nghị, hội thảo, tọa đàm; tổ chức đào tạo, tập huấn nghiệp vụ; báo cáo định kỳ hoặc đột xuất; sơ kết, tổng kết việc phối hợp.",
+"expected_context": "Điều 12. Hình thức phối hợp"
+},
+{
+"question": "Chế độ giao ban định kỳ của các cơ quan chuyên trách phòng, chống tội phạm về ma túy được quy định như thế nào?",
+"expected_answer": "Ở cấp trung ương, các cơ quan luân phiên chủ trì giao ban định kỳ mỗi năm một lần. Ở cấp tỉnh, các cơ quan luân phiên chủ trì giao ban định kỳ 6 tháng một lần.",
+"expected_context": "Điều 13 khoản 1. Chế độ giao ban"
+},
+{
+"question": "Bộ Công an cho phép các hoạt động nào liên quan đến nghiên cứu, sản xuất và vận chuyển chất ma túy, tiền chất?",
+"expected_answer": "Bộ Công an cho phép nghiên cứu các chất ma túy, tiền chất theo danh mục do Chính phủ quy định; sản xuất các chất ma túy, tiền chất theo danh mục do Chính phủ quy định, trừ các tiền chất do Bộ Công Thương, Bộ Y tế quản lý và cho phép; và vận chuyển các chất ma túy theo danh mục do Chính phủ quy định.",
+"expected_context": "Điều 14 khoản 1. Cơ quan có thẩm quyền cho phép các hoạt động nghiên cứu, giám định, sản xuất, vận chuyển chất ma túy, tiền chất"
+},
+{
+"question": "Thời hạn thẩm định và thông báo cho phép nghiên cứu chất ma túy, tiền chất là bao lâu?",
+"expected_answer": "Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan cấp phép tiến hành thẩm định và thông báo cho phép bằng văn bản. Nếu cần chỉnh lý, bổ sung tài liệu, cơ quan cấp phép thông báo trong thời hạn chậm nhất 03 ngày làm việc kể từ ngày nhận hồ sơ.",
+"expected_context": "Điều 15 khoản 1. Kiểm soát hoạt động nghiên cứu chất ma túy, tiền chất"
+},
+{
+"question": "Hồ sơ đề nghị cho phép nghiên cứu chất ma túy, tiền chất gồm những tài liệu gì?",
+"expected_answer": "Hồ sơ gồm văn bản đề nghị cho phép nghiên cứu; bản sao Giấy chứng nhận đăng ký hoạt động khoa học và công nghệ; bản sao Kế hoạch nghiên cứu được cấp có thẩm quyền phê duyệt; tài liệu chứng minh tính hợp pháp của chất đề nghị nghiên cứu; kế hoạch, biện pháp bảo đảm an toàn, điều kiện bảo quản và xử lý tồn dư chất ma túy, tiền chất trong quá trình nghiên cứu.",
+"expected_context": "Điều 15 khoản 2. Hồ sơ đề nghị cho phép nghiên cứu chất ma túy, tiền chất"
+},
+{
+"question": "Giấy phép vận chuyển chất ma túy có giá trị trong thời hạn bao lâu?",
+"expected_answer": "Giấy phép vận chuyển chất ma túy được cấp cho từng lần vận chuyển và có giá trị trong thời hạn ghi trên giấy phép, nhưng không quá 06 tháng.",
+"expected_context": "Điều 17 khoản 3. Giấy phép vận chuyển chất ma túy"
+},
+{
+"question": "Giấy phép nhập khẩu, xuất khẩu chất ma túy, tiền chất có giá trị trong thời hạn bao lâu?",
+"expected_answer": "Giấy phép nhập khẩu, xuất khẩu được cấp cho từng lần nhập khẩu, xuất khẩu và có giá trị trong thời hạn ghi trên giấy phép nhưng không quá 12 tháng. Nếu hết thời hạn mà việc nhập khẩu, xuất khẩu chưa thực hiện được thì doanh nghiệp có thể đề nghị gia hạn và không giới hạn số lần gia hạn.",
+"expected_context": "Điều 20 khoản 3 điểm a. Giấy phép nhập khẩu, xuất khẩu"
+},
+{
+"question": "Trong thời hạn bao lâu Chủ tịch Ủy ban nhân dân cấp xã phải ra quyết định quản lý người sử dụng trái phép chất ma túy?",
+"expected_answer": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo về hành vi sử dụng trái phép chất ma túy và kết quả xét nghiệm chất ma túy trong cơ thể, Chủ tịch Ủy ban nhân dân cấp xã nơi người đó cư trú ổn định hoặc nơi phát hiện hành vi đối với người không có nơi cư trú ổn định ra quyết định và tổ chức quản lý người sử dụng trái phép chất ma túy.",
+"expected_context": "Điều 42 khoản 1. Quyết định quản lý người sử dụng trái phép chất ma túy"
+}
+]
+
+

@@ -1,0 +1,20 @@
+# Truy tố diễn viên hài Hữu Tín
+
+**Source:** https://dantri.com.vn/phap-luat/truy-to-dien-vien-hai-huu-tin-20221117115806098.htm
+**Crawled:** 2026-06-08T15:22:16
+
+---
+
+Truy tố diễn viên hài Hữu Tín
+Hồng Lĩnh
+(Dân trí) - Ngày 17/11, VKSND quận 8 (TPHCM) đã ban hành cáo trạng truy tố bị can Trần Hữu Tín (35 tuổi, diễn viên hài Hữu Tín) về tội Tổ chức sử dụng trái phép chất ma túy.
+Liên quan vụ án, bị can Nguyễn Hoàng Phi (32 tuổi) bị đề nghị truy tố về tội Tàng trữ trái phép chất ma túy và Tổ chức sử dụng trái phép chất ma túy.
+Theo hồ sơ, Hữu Tín và bạn gái thuê căn hộ chung cư ở quận 8 sinh sống và cho Phi thuê lại một phòng trong nhà.
+Diễn viên Hữu Tín bị bắt quả tang khi đang sử dụng ma túy (Ảnh: A.X.).
+Giữa tháng 5, Phi cùng nhóm bạn đi hát karaoke ở quận 5, có sử dụng ma túy. Cuối cuộc chơi thấy còn dư "hàng" nên anh này mang về cất trong phòng ngủ.
+Rạng sáng 11/6, Hữu Tín cùng 2 người bạn sau khi nhậu đã về căn hộ chơi. Lúc vào phòng Phi, Tín thấy "đồ chơi" và thuốc lắc nên lấy ra cùng các bạn sử dụng.
+Lúc sau, Phi đi làm về lấy thêm viên ma túy đưa cho một người trong nhóm chơi, chỉnh nhạc lớn nhằm tạo cảm giác hưng phấn.
+Sáng cùng ngày, Công an phường 5, quận 8, ập vào bắt quả tang. Tại hiện trường, nhà chức trách thu giữ nhiều tang vật liên quan. Kết quả xét nghiệm cho thấy Hữu Tín cùng 2 người khác dương tính với ma túy.
+Diễn viên hài Hữu Tín từng học trường Sân khấu - Điện ảnh TPHCM và hoạt động ở sân khấu kịch Hồng Vân. Hữu Tín được xem là nghệ sĩ triển vọng, nhiều khán giả yêu mến.
+Sau thời gian cố gắng, nam diễn viên để lại ấn tượng với khán giả qua nhiều vai diễn, xuất hiện trong một số chương trình truyền hình.
+Đặc biệt, Hữu Tín còn là trưởng nhóm X-Pro, nhóm hài từng ghi dấu ấn tại chương trình "Cười xuyên Việt - Tiếu lâm hội 2016" với tác phẩm hài "Bến Thượng Hải".
